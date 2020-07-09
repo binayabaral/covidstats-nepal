@@ -1,0 +1,26 @@
+.location-selectors {
+	padding: 20px 0 5px;
+
+	.container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.form-group {
+		margin: 5px 20px;
+	}
+
+	label {
+		text-align: center;
+
+		@include media('screen', '>=tablet') {
+			text-align: left;
+		}
+	}
+
+	select {
+		padding: 3px 10px;
+		outline: none;
+	}
+}

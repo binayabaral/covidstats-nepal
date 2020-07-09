@@ -1,0 +1,65 @@
+.statistics {
+	padding: 20px 0;
+	text-align: center;
+
+	.total-population {
+		font-size: 17px;
+		display: block;
+	}
+
+	.boxes {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 0 -15px;
+
+		.box {
+			margin: 5px 15px;
+			background: #fcfcfc;
+			padding: 15px;
+			border-radius: 5px;
+			width: 100%;
+
+			@include media('screen', '>=phone') {
+				width: 190px;
+			}
+
+			&.infected {
+				border-bottom: 6px solid rgba(0, 0, 255, 0.7);
+			}
+
+			&.active {
+				border-bottom: 6px solid rgba(255, 99, 71, 0.5);
+			}
+
+			&.recoveries {
+				border-bottom: 6px solid rgba(0, 128, 0, 0.7);
+			}
+
+			&.deaths {
+				border-bottom: 6px solid rgba(255, 0, 0, 0.7);
+			}
+		}
+
+		span {
+			display: block;
+			color: #a3a3a3;
+		}
+
+		.box-for {
+			font-size: 18px;
+			text-transform: capitalize;
+			margin-bottom: 5px;
+		}
+
+		.count {
+			font-size: 25px;
+			color: $black;
+			margin-bottom: 5px;
+		}
+	}
+
+	.updated-on {
+		font-size: 12px;
+	}
+}

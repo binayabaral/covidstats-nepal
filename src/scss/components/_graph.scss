@@ -1,0 +1,15 @@
+.graph {
+	padding: 20px 0;
+	text-align: center;
+
+	.chart {
+		max-width: 800px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.source {
+		text-decoration: underline;
+		font-size: 12px;
+	}
+}

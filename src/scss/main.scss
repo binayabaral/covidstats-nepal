@@ -1,0 +1,25 @@
+//import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+// standard vendor includes
+@import 'vendors/include-media';
+@import 'vendors/normalize';
+
+//do not change order of these inclues
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/helpers';
+@import 'base/reset';
+
+//custom includes
+@import 'base/typography';
+@import 'base/forms';
+@import 'base/print-reset';
+
+//layouts
+@import 'layout/common';
+
+//components
+@import 'components/location-selectors';
+@import 'components/statistics';
+@import 'components/graph';
