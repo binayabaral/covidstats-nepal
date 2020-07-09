@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './scss/main.scss';
 
+import Header from './components/Header';
 import LocationSelectors from './components/location-selectors';
 import Statistics from './components/statistics';
 import Graph from './components/graph';
@@ -67,6 +68,7 @@ function App() {
 
 	return (
 		<main id="main">
+			<Header />
 			<LocationSelectors setProvinceIsSelected={setProvinceIsSelected} setProvince={setProvince} provinceIsSelected={provinceIsSelected} districtList={districtList} setDistrict={setDistrict} setDistrictIsSelected={setDistrictIsSelected} districtIsSelected={districtIsSelected} municipalList={municipalList} setMunicipal={setMunicipal} setMunicipalIsSelected={setMunicipalIsSelected} />
 			<Statistics data={data} />
 			<Graph data={data} />

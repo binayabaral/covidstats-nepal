@@ -8,7 +8,7 @@ const Statistics = props => {
 	return (
 		<section className="statistics">
 			<div className="container">
-				<h1>{`Statistics for Selected Region`}</h1>
+				<h3>{`Statistics for Selected Region`}</h3>
 				<div className="boxes">
 					<StatBox boxFor="infected" count={props.data.infected} />
 					<StatBox boxFor="active" count={props.data.active} />
