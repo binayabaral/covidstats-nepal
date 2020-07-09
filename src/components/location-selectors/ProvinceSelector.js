@@ -2,11 +2,11 @@ import React from 'react';
 
 const ProvinceSelector = props => {
 	const handleProvinceChange = e => {
+		props.setDistrictIsSelected(false);
+		props.setMunicipalIsSelected(false);
 		if (e.target.value !== '0') {
 			props.setProvince(e.target.value);
 			props.setProvinceIsSelected(true);
-			props.setDistrictIsSelected(false);
-			props.setMunicipalIsSelected(false);
 		} else {
 			props.setProvinceIsSelected(false);
 		}
