@@ -6,7 +6,7 @@ Province, District and Municipality.
 
 ## Live Demo
 
-This Project is live [here](https://covidstats-nepal.binayabaral.com.np/).
+This Project is live [here](https://covidstats-nepal.binayabaral.com.np/){:target="\_blank"}.
 
 ## Project Starter
 
