@@ -1,3 +1,15 @@
+## Coronavirus Tracking Application for Nepal
+
+### Search By:
+
+Province, District and Municipality.
+
+## Live Demo
+
+This Project is live [here](https://covidstats-nepal.binayabaral.com.np/).
+
+## Project Starter
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
