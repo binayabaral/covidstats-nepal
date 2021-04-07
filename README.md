@@ -1,3 +1,5 @@
+# Was developed using nepalcorona.info api. API is not working anymore.
+
 ## Coronavirus Tracking Application for Nepal
 
 ### Search By:
